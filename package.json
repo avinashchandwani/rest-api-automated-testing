@@ -1,0 +1,25 @@
+{
+  "name": "rest-api-automated-testing",
+  "version": "1.0.0",
+  "description": "Automated",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 100000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.0",
+    "request": "^2.88.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "dummy-json": "^3.0.3",
+    "superagent": "^6.1.0"
+  }
+}

@@ -1,0 +1,9 @@
+To run test cases:
+1. Go to utilities\test
+2. Run below commands one by one (accept all defaults)
+  npm init   
+  npm install mocha chai --save-dev
+  npm install request --save-dev
+  npm install chai-http --save-dev
+3. To starttests, run below command
+  npm test
