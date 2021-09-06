@@ -1,5 +1,5 @@
 const {getAuthToken, testCRDS} = require('../lib/cloud');
-const { schoolAdminAuthPayload} = require('../lib/auth-payloads');
+const { authPayload} = require('../lib/auth-payloads');
 const createPayload =
 {
   "address": {
@@ -31,7 +31,7 @@ const createPayload =
 let token;
 describe('employees', () => {
    before(()=> {
-      return getAuthToken(schoolAdminAuthPayload).
+      return getAuthToken(authPayload).
             then(r => token = r.body.token).
             catch(r => {throw r;});
    });
