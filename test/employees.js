@@ -2,30 +2,10 @@ const {getAuthToken, testCRDS} = require('../lib/cloud');
 const { authPayload} = require('../lib/auth-payloads');
 const createPayload =
 {
-  "address": {
-    "addressOne": "209",
-    "addressTwo": "Chandanagar",
-    "city": "Hyderabad",
-    "state": "TS",
-    "country": "India",
-    "zipCode": "500050"
-  },
-  "user": {
-    "email": "school-employee1@gmail.com",
-    "lastName": "Malakar",
-    "firstName": "Rohit",
-    "password": "test@123"
-  },
-  "employee":{
-    "firstName":"Rohit",
-    "lastName":"Malakar",
-    "gender":"M",
-    "dob":"01/05/1985",
-    "bloodGroup":"O+",
-    "joiningDate":"01/07/2015",
-    "employeeNumber":"EMP0002",
-    "departmentId":1
-  }
+  "firstName": "Mark",
+  "lastName": "Genee",
+  "gender": "M",
+  "employeeNumber":"EMP1111"
 };
 
 let token;
